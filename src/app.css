@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  
+
+}
+.emoji-picker {
+  position: absolute;
+  bottom: -250px; /* Adjust as needed */
+  left: 0;
+}
+
+html ::-webkit-scrollbar {
+    display: none;
+}
+.badhon h1{
+  white-space: nowrap;
+  animation: badhon 30s linear infinite;
+
+
+  display: inline-block;
+  overflow:visible;
+  
+}
+@keyframes badhon {
+  0% {
+    transform: translateX(40%); /* Change this to '100%' */
+  }
+  100% {
+    transform: translateX(-100%); /* Change this to a negative value */
+  }
+}
+
+
+.ontainer{
+ 
+    font-size: 30px;
+    background: url("https://res.cloudinary.com/djo5r2a5z/image/upload/v1692038621/download_bmyuan.jpg");
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: none;
+
+
+  }
